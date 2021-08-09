@@ -43,14 +43,9 @@
 
 /* 主题列表其他修改 */
 
+
 .full-width .contents .topic-list {
   tbody {
-    display: contents;
-    tr.topic-list-item-separator {
-      td {
-        width: 100%;
-      }
-    }
     tr:not(.topic-list-item-separator) {
       &:hover {
         background-color: var(--secondary);
