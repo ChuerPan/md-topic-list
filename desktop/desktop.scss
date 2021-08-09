@@ -24,7 +24,7 @@
 		.poster-avatar {
 			float: left;
 			/* margin: 5px 7px 0 30px; */
-			margin-left: 3.00em;
+			margin-left: 2.50em;
 		}
 		.poster-info {
 			width: calc(100% - 80px);
@@ -35,7 +35,6 @@
 				color: $primary-high;
 			}
 			.editor a {
-				text-align:center;
 				color: $primary;
 			}
 		}
