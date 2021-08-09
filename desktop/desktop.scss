@@ -41,36 +41,11 @@
 	}
 }
 
-/* */
+/* 主题列表其他修改 */
 .full-width .contents .topic-list {
-  border-collapse: separate;
-  border-spacing: 0 0.25em;
-  display: contents;
-  thead {
-    tr {
-      display: flex;
-      border-bottom: none;
-    }
-    display: contents;
-    th.default {
-      width: 63%;
-    }
-    th.posters {
-      width: 7%;
-    }
-    th.posts {
-      width: 15%;
-    }
-    th.activity {
-      width: 15%;
-    }
-  }
   tbody {
     display: contents;
     tr.topic-list-item-separator {
-      width: 100%;
-      margin: 0.75em 0;
-      display: flex;
       td {
         width: 100%;
       }
@@ -105,10 +80,6 @@
         a.topic-excerpt {
           color: var(--primary) !important;
         }
-      }
-      td.main-link {
-        width: 63%;
-        order: 2;
       }
       td.posters {
         width: 7%;
