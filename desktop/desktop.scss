@@ -45,10 +45,8 @@
 /* 自适应 */
 
 @media (max-width: 870px) {
-    .topic-list-item {
-	background-color: var(--secondary);
-	};
     .topic-list .views {
+	background-color: var(--secondary);
         display: none;
     }
 }
