@@ -1,4 +1,35 @@
-/* MD Topic List */
+
+
+.full-width .contents .topic-list-item .posters a:first-of-type {
+  margin-right: 4px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  .avatar {
+    margin-right: 0;
+  }
+}
+
+.full-width .contents {
+  .topic-list-item {
+    .main-link {
+      min-height: 100%;
+      min-height: 100%;
+      .link-top-line {
+        display: block;
+        margin-bottom: 0.25em;
+      }
+      .title {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+/* 最小主题 */
 
 .topic-list {
 	.link-bottom-line {
@@ -42,7 +73,7 @@
 }
 
 
-/* RESPONSIVE */
+/* 自适应 */
 
 @media (max-width: 870px) {
     .topic-list .views {
