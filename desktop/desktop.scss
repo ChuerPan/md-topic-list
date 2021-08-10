@@ -53,7 +53,8 @@
         border: 1px solid rgba(var(--primary-rgb),0.30);
         a.title:not(.badge-notification),
         a.topic-excerpt {
-          color: var(--primary) !important;
+        	color: var(--primary) !important;
+		font-size: 0.50em;
         }
       }
     }
