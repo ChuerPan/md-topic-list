@@ -52,6 +52,74 @@
 
 
 /* 自适应 */
+/* 最小主题 */
+
+.topic-list {
+	.link-bottom-line {
+		.discourse-tags::before {
+			content: "🔖";
+			margin-left: 12px;
+			margin-right: 2px;
+		}
+		.topic-creator {
+			font-size: 0.50em;
+			a {
+				color: $primary;
+			}
+		}
+	}
+	.activity {
+		min-width: 180px;
+		width: auto;
+	}
+	.last-post {
+		padding: 8px 5px;
+		width: auto;
+		.poster-avatar {
+			float: left;
+			/* margin: 5px 7px 0 30px; */
+			margin-left: 2.50em;
+		}
+		.poster-info {
+			width: calc(100% - 80px);
+			float: right;
+			overflow: hidden;
+			text-align: justify;
+			span.relative-date {
+				color: $primary-high;
+			}
+			.editor a {
+				color: $primary;
+			}
+		}
+	}
+}
+
+
+/* 自适应 */
+.main-outlet {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background: var(--secondary);
+  border-radius: 1em;
+  padding: 3em 3em 5%;
+  max-width: 1150px;
+  .archetype-regular & {
+    min-height: 500px;
+  }
+  @media screen and (max-width: 700px) {
+    padding: 1.5em;
+    margin-top: 0;
+  }
+  padding-bottom: 5% !important; //overriding inline style
+  @include box-shadow;
+  @media screen and (max-width: 1120px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 1075px) {
+    width: 85%;
+  }
+}
 
 @media (max-width: 870px) {
     .topic-list .views {
