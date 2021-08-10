@@ -60,32 +60,6 @@
 }
 
 /* 自适应 */
-@mixin box-shadow($value: 0px) {
-  box-shadow: 0 24px 40px rgba(0,0,0,.07),0 10.8529px 24.1177px rgba(0,0,0,.0456112),0 4.50776px 10.0172px rgba(0,0,0,.035),0 1.63037px 3.62304px rgba(0,0,0,.0243888);
-}
-.main-outlet {
-  margin-top: 30px;
-  margin-bottom: 50px;
-  background: var(--secondary);
-  border-radius: 1em;
-  padding: 3em 3em 5%;
-  max-width: 1150px;
-  .archetype-regular & {
-    min-height: 500px;
-  }
-  @media screen and (max-width: 700px) {
-    padding: 1.5em;
-    margin-top: 0;
-  }
-  padding-bottom: 5% !important; //overriding inline style
-  @include box-shadow;
-  @media screen and (max-width: 1120px) {
-    width: 80%;
-  }
-  @media screen and (max-width: 1075px) {
-    width: 85%;
-  }
-}
 
 @media (max-width: 870px) {
     .topic-list .views {
