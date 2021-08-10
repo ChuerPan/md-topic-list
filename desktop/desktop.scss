@@ -41,54 +41,6 @@
 	}
 }
 
-/* 主题列表其他修改 */
-
-
-.full-width .contents .topic-list {
-  tbody {
-        margin-bottom: 0.25em;
-      }
-    tr:not(.topic-list-item-separator) {
-      &:hover {
-        background-color: var(--secondary);
-        box-shadow: 0px 0px 12px rgba(0,0,0,0.10);
-        border: 1px solid rgba(var(--primary-rgb),0.30);
-        a.title:not(.badge-notification),
-        a.topic-excerpt {
-        	color: var(--primary) !important;
-        }
-      }
-    }
-  }
-.full-width .contents .topic-list {
-  .topic-list-item {
-    .main-link {
-      min-height: 100%;
-      min-height: 100%;
-      .link-top-line {
-	font-size: 1.0em;
-        display: block;
-        margin-bottom: 0.25em;
-      }
-      .title {
-        font-weight: bold;
-      }
-      .link-area {
-        display: flex;
-        .link-title-area {
-          margin-right: 1em;
-          font-size: $font-up-1;
-        }
-        .link-meta-area {
-          font-size: $font-down-3;
-          display: flex;
-          align-items: center;
-        }
-      }
-    }
-}
-}
-
 
 /* RESPONSIVE */
 
