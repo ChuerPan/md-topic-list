@@ -46,6 +46,8 @@
 
 .full-width .contents .topic-list {
   tbody {
+        margin-bottom: 0.25em;
+      }
     tr:not(.topic-list-item-separator) {
       &:hover {
         background-color: var(--secondary);
@@ -54,13 +56,36 @@
         a.title:not(.badge-notification),
         a.topic-excerpt {
         	color: var(--primary) !important;
-		font-size: 1.00em;
         }
       }
     }
   }
 }
-
+.full-width .contents .topic-list {
+  .topic-list-item {
+    .main-link {
+      min-height: 100%;
+      min-height: 100%;
+      .link-top-line {
+        display: block;
+        margin-bottom: 0.25em;
+      }
+      .title {
+        font-weight: bold;
+      }
+      .link-area {
+        display: flex;
+        .link-title-area {
+          margin-right: 1em;
+          font-size: $font-up-1;
+        }
+        .link-meta-area {
+          font-size: $font-down-3;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
 
 /* RESPONSIVE */
 
