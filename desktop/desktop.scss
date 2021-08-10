@@ -8,7 +8,7 @@
 			margin-right: 2px;
 		}
 		.topic-creator {
-			font-size: 1.00em;
+			font-size: 0.50em;
 			a {
 				color: $primary;
 			}
@@ -54,7 +54,7 @@
         a.title:not(.badge-notification),
         a.topic-excerpt {
         	color: var(--primary) !important;
-		font-size: 0.50em;
+		font-size: 1.00em;
         }
       }
     }
