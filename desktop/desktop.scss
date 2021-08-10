@@ -1,12 +1,5 @@
-/* 最小主题 */
+/*标题加粗*/
 .topic-list-item {
-  background-color: var(--secondary);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
 	.link-top-line{
 		.title {
         	font-weight: bold;
@@ -15,6 +8,7 @@
 	}
 }
 
+/* 最小主题 */
 .topic-list {
 	.link-bottom-line {
 		.discourse-tags::before {
